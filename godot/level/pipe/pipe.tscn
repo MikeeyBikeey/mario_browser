@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://level/pipe/green_pipe.png" type="Texture" id=1]
+[ext_resource path="res://level/pipe/pipe.gd" type="Script" id=2]
+
+[node name="Pipe" type="Node2D" groups=["platform", "warp_pipe"]]
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+centered = false
